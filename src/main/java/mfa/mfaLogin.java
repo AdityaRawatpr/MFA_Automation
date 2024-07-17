@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class mfaLogin {
-    private static final String USER_SECRET_KEY = "3E4TFTAJD7CVJNTN";
+    private static final String USER_SECRET_KEY = "***";
 
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
@@ -19,8 +19,8 @@ public class mfaLogin {
             driver.get(url);
 
             // Find username and password fields and fill them in
-            String username = "himanshu.kumar03@nagarro.com";  // Replace with your username
-            String password = "Hk@21198";  // Replace with your password
+            String username = "***@nagarro.com";  // Replace with your username
+            String password = "***";  // Replace with your password
 
             WebElement usernameField = driver.findElement(By.id("login_field"));  // Replace with the actual ID of the username field
             WebElement passwordField = driver.findElement(By.id("password"));  // Replace with the actual ID of the password field
